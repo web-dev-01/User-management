@@ -1,14 +1,4 @@
-@import "tailwindcss";
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-  html {
-    @apply transition-colors duration-300;
-  }
-  body {
-    @apply bg-white text-[#1e293b] dark:bg-[#0f172a] dark:text-[#f1f5f9] transition-colors duration-300;
-  }
+body {
+  background-color: #083d14; /* ya jo bhi color tu chaahe */
+  color: #111; /* text color if needed */
 }
